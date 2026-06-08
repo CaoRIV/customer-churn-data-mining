@@ -1,0 +1,15 @@
+clustering:
+  enabled: false
+  algorithm: kmeans
+  random_state: 42
+  k_min: 2
+  k_max: 10
+  scale_numeric: true
+
+profiling_columns:
+  - tenure
+  - MonthlyCharges
+  - TotalCharges
+  - Contract
+  - InternetService
+  - PaymentMethod

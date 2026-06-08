@@ -1,0 +1,24 @@
+train_test_split:
+  test_size: 0.2
+  stratify: true
+  random_state: 42
+
+preprocessing:
+  numeric_imputer: median
+  categorical_imputer: most_frequent
+  scale_numeric: true
+  one_hot_handle_unknown: ignore
+
+models:
+  logistic_regression:
+    max_iter: 1000
+    class_weight: balanced
+  random_forest:
+    n_estimators: 300
+    max_depth:
+    class_weight: balanced
+    random_state: 42
+
+selection:
+  primary_metric: f1_churn_yes
+  secondary_metric: recall_churn_yes
