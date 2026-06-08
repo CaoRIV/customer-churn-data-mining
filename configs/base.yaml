@@ -1,0 +1,17 @@
+project:
+  name: customer-churn-data-mining
+  random_state: 42
+
+paths:
+  raw_data: data/raw/telco_customer.csv
+  processed_dir: data/processed
+  reports_dir: reports
+  models_dir: models
+  features: data/processed/features.csv
+  target: data/processed/target.csv
+
+dataset:
+  target_column: Churn
+  id_column: customerID
+  expected_rows: 7043
+  expected_columns: 21
