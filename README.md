@@ -64,6 +64,20 @@ python -m ipykernel install --user --name customer-churn-dm
 - bảng tối ưu threshold
 - insight và đề xuất giữ chân khách hàng
 
+## Kết quả classification hiện tại
+
+Logistic Regression được chọn làm model tốt nhất tại threshold mặc định `0.5`:
+
+| Metric | Kết quả |
+|---|---:|
+| Accuracy | 0.738 |
+| Precision - Churn Yes | 0.504 |
+| Recall - Churn Yes | 0.783 |
+| F1-score - Churn Yes | 0.614 |
+| ROC-AUC | 0.842 |
+
+Model ưu tiên phát hiện khách hàng churn nên Recall và F1-score của lớp `Churn = Yes` được dùng làm tiêu chí lựa chọn chính. Threshold sẽ tiếp tục được tối ưu trong notebook 04.
+
 ## Checklist hiện tại
 
 - [x] Tạo cấu trúc thư mục dự án
@@ -72,7 +86,7 @@ python -m ipykernel install --user --name customer-churn-dm
 - [x] Tạo `data/processed/target.csv`
 - [x] Tạo file cấu hình nền
 - [x] Tạo README bản nháp
-- [ ] Hoàn thiện notebook 01
-- [ ] Hoàn thiện notebook 02
-- [ ] Hoàn thiện notebook 03
+- [x] Hoàn thiện notebook 01
+- [x] Hoàn thiện notebook 02
+- [x] Hoàn thiện notebook 03
 - [ ] Hoàn thiện notebook 04

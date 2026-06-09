@@ -1,0 +1,15 @@
+{
+  "best_model": "Logistic Regression",
+  "selection_rule": "Highest churn F1, then churn recall, then ROC-AUC",
+  "default_threshold": 0.5,
+  "random_state": 42,
+  "test_size": 0.2,
+  "metrics": {
+    "accuracy": 0.7381121362668559,
+    "precision_churn_yes": 0.504302925989673,
+    "recall_churn_yes": 0.7834224598930482,
+    "f1_churn_yes": 0.6136125654450262,
+    "roc_auc": 0.841501976284585,
+    "flagged_customers": 581
+  }
+}
