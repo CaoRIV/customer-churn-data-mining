@@ -262,6 +262,52 @@ Chạy notebook theo đúng thứ tự:
 
 Mỗi notebook phụ thuộc vào output của notebook trước. Nên sử dụng **Restart Kernel and Run All** để kiểm tra khả năng tái lập.
 
+## Streamlit Dashboard
+
+Ứng dụng MVP gồm bốn trang:
+
+1. Tổng quan dự án và kết quả mô hình.
+2. EDA dashboard có bộ lọc và biểu đồ tương tác.
+3. Dự đoán một khách hàng hoặc scoring CSV hàng loạt.
+4. Tối ưu threshold, business assumptions và danh sách retention.
+
+Chạy ứng dụng local:
+
+```powershell
+streamlit run app/app.py
+```
+
+Mặc định ứng dụng chạy tại:
+
+```text
+http://localhost:8501
+```
+
+### Deploy Streamlit Community Cloud
+
+1. Push repository và các artifact được theo dõi lên GitHub.
+2. Truy cập Streamlit Community Cloud và chọn **Create app**.
+3. Chọn repository `customer-churn-data-mining`.
+4. Chọn branch cần deploy.
+5. Đặt entrypoint:
+
+```text
+app/app.py
+```
+
+6. Deploy. Ứng dụng không yêu cầu secrets hoặc authentication.
+
+Các artifact bắt buộc cho bản deploy:
+
+```text
+models/best_model.joblib
+models/best_model_metadata.json
+models/selected_threshold.json
+reports/classification_model_comparison.csv
+reports/business_threshold_analysis.csv
+data/raw/telco_customer.csv
+```
+
 ## Artifact chính
 
 | Artifact | Mô tả |
@@ -308,16 +354,6 @@ Các báo cáo và biểu đồ trong `reports/` được tạo lại khi chạy
 - Clustering để xây dựng phân khúc khách hàng.
 - Uplift modeling để chọn khách hàng có khả năng phản hồi tốt với retention.
 - Triển khai batch scoring hoặc API dự đoán.
-
-## Trạng thái
-
-- [x] Project setup
-- [x] Data understanding và preprocessing
-- [x] Exploratory Data Analysis
-- [x] Classification modeling
-- [x] Threshold và business optimization
-- [ ] Clustering mở rộng
-- [ ] Production deployment
 
 ## Tuyên bố sử dụng
 
