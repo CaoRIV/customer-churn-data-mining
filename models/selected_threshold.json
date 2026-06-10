@@ -1,0 +1,27 @@
+{
+  "model": "Logistic Regression",
+  "selected_threshold": 0.3,
+  "selection_note": "Chọn expected net value cao nhất trong nhóm thỏa Precision/Recall tối thiểu.",
+  "minimum_precision": 0.4,
+  "minimum_recall": 0.7,
+  "roc_auc": 0.841501976284585,
+  "average_precision": 0.6325016828753636,
+  "brier_score": 0.16872361251229123,
+  "selected_metrics": {
+    "precision": 0.42945544554455445,
+    "recall": 0.9278074866310161,
+    "f1": 0.5871404399323181,
+    "flagged_customers": 808.0,
+    "true_positive": 347.0,
+    "false_positive": 461.0,
+    "false_negative": 27.0,
+    "expected_retained_customers": 104.1,
+    "expected_net_value": 11260.0
+  },
+  "business_assumptions": {
+    "intervention_cost_per_customer": 50,
+    "retained_customer_value": 600,
+    "retention_success_rate": 0.3,
+    "missed_churn_cost": 400
+  }
+}

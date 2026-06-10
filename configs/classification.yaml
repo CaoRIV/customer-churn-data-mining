@@ -22,3 +22,16 @@ models:
 selection:
   primary_metric: f1_churn_yes
   secondary_metric: recall_churn_yes
+
+threshold_optimization:
+  threshold_min: 0.1
+  threshold_max: 0.9
+  threshold_step: 0.05
+  minimum_precision: 0.4
+  minimum_recall: 0.7
+
+business:
+  intervention_cost_per_customer: 50
+  retained_customer_value: 600
+  retention_success_rate: 0.3
+  missed_churn_cost: 400
