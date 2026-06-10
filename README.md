@@ -308,6 +308,51 @@ reports/business_threshold_analysis.csv
 data/raw/telco_customer.csv
 ```
 
+## Demo ứng dụng
+
+Trải nghiệm phiên bản đã triển khai trên Streamlit Community Cloud:
+
+**[Mở Telco Churn Intelligence Dashboard](https://customer-churn-data-mining-vha.streamlit.app/business)**
+
+> Thay `https://customer-churn-data-mining-vha.streamlit.app/business` bằng URL Streamlit Cloud thực tế của dự án.
+
+### 1. Tổng quan / Overview
+
+![Trang tổng quan của Telco Churn Intelligence](docs/images/overview)
+
+Trang tổng quan trình bày KPI chính, kết quả so sánh mô hình, tác động của
+threshold và tiến độ các phase trong quy trình Data Mining.
+
+### 2. Khám phá dữ liệu / EDA Dashboard
+
+![Trang khám phá và phân tích dữ liệu](docs/images/eda.png)
+
+EDA Dashboard hỗ trợ lọc dữ liệu, phân tích phân phối churn, đặc trưng số,
+đặc trưng phân loại, tương quan và kết quả kiểm định Chi-square.
+
+### 3. Dự đoán churn / Churn Prediction
+
+![Trang dự đoán khả năng khách hàng rời bỏ](docs/images/prediction.png)
+
+Trang dự đoán hỗ trợ chấm điểm một khách hàng hoặc tệp CSV, phân nhóm mức
+rủi ro và giải thích các đặc trưng làm tăng hoặc giảm khả năng churn.
+
+### 4. Tối ưu kinh doanh / Business Optimization
+
+![Trang tối ưu threshold và giá trị kinh doanh](docs/images/business.png)
+
+Trang tối ưu kinh doanh mô phỏng trade-off giữa precision, recall, quy mô
+chiến dịch retention và expected net value theo từng threshold.
+
+Đặt bốn ảnh chụp màn hình vào thư mục `docs/images/` với đúng tên:
+
+```text
+overview.png
+eda.png
+prediction.png
+business.png
+```
+
 ## Artifact chính
 
 | Artifact | Mô tả |
