@@ -314,7 +314,6 @@ Trải nghiệm phiên bản đã triển khai trên Streamlit Community Cloud:
 
 **[Mở Telco Churn Intelligence Dashboard](https://customer-churn-data-mining-vha.streamlit.app/business)**
 
-> Thay `https://customer-churn-data-mining-vha.streamlit.app/business` bằng URL Streamlit Cloud thực tế của dự án.
 
 ### 1. Tổng quan / Overview
 
