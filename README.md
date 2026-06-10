@@ -318,7 +318,7 @@ Trải nghiệm phiên bản đã triển khai trên Streamlit Community Cloud:
 
 ### 1. Tổng quan / Overview
 
-![Trang tổng quan của Telco Churn Intelligence](docs/images/overview)
+![Trang tổng quan của Telco Churn Intelligence](docs/images/overview.png)
 
 Trang tổng quan trình bày KPI chính, kết quả so sánh mô hình, tác động của
 threshold và tiến độ các phase trong quy trình Data Mining.
