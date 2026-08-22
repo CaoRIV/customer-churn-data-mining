@@ -1,4 +1,25 @@
-# Telco Customer Churn - Data Mining Project
+<p align="center">
+  <img src="docs/images/churn-logo.svg" width="96" alt="Telco Churn Intelligence logo">
+</p>
+
+<h1 align="center">Telco Customer Churn Prediction</h1>
+
+<p align="center">
+  <strong>Data Mining pipeline dự đoán churn và hỗ trợ quyết định giữ chân khách hàng viễn thông.</strong>
+</p>
+
+<p align="center">
+  <img alt="Version" src="https://img.shields.io/badge/version-unreleased-64748B?style=flat-square">
+  <img alt="Python 3.12" src="https://img.shields.io/badge/Python-3.12-3776AB?style=flat-square&logo=python&logoColor=white">
+  <img alt="Streamlit 1.56.0" src="https://img.shields.io/badge/Streamlit-1.56.0-FF4B4B?style=flat-square&logo=streamlit&logoColor=white">
+  <img alt="scikit-learn 1.7.2" src="https://img.shields.io/badge/scikit--learn-1.7.2-F7931E?style=flat-square&logo=scikitlearn&logoColor=white">
+  <img alt="Platform" src="https://img.shields.io/badge/platform-Streamlit%20Cloud-1E40AF?style=flat-square">
+  <img alt="Tests" src="https://img.shields.io/badge/tests-pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white">
+  <img alt="Build" src="https://img.shields.io/badge/build-no%20CI%20configured-94A3B8?style=flat-square">
+  <img alt="License" src="https://img.shields.io/badge/license-not%20specified-lightgrey?style=flat-square">
+</p>
+
+---
 
 Dự án môn **Data Mining** tập trung phân tích và dự đoán khả năng khách hàng rời bỏ dịch vụ viễn thông trên bộ dữ liệu Telco Customer Churn. Quy trình bao gồm làm sạch dữ liệu, EDA, kiểm định thống kê, xây dựng mô hình phân loại, tối ưu threshold và chuyển kết quả dự đoán thành đề xuất giữ chân khách hàng.
 
