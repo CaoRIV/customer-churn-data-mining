@@ -1,0 +1,10 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Telco Churn Intelligence logo</title>
+  <desc id="desc">A blue analytics mark combining a customer signal, trend line, and retention shield.</desc>
+  <rect width="128" height="128" rx="28" fill="#0F172A"/>
+  <circle cx="42" cy="42" r="16" fill="#38BDF8"/>
+  <path d="M24 91C27.7 77.2 38 69 51 69C64 69 74.3 77.2 78 91" stroke="#38BDF8" stroke-width="9" stroke-linecap="round"/>
+  <path d="M72 34L91 53L108 31" stroke="#F59E0B" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M88 70L106 78V94C106 105.2 98.7 113.1 88 117C77.3 113.1 70 105.2 70 94V78L88 70Z" fill="#1E40AF" stroke="#DBEAFE" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M80 92L86 98L97 85" stroke="#DBEAFE" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
